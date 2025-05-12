@@ -1,0 +1,11 @@
+{
+  "delay": 1000,
+  "verbose": true,
+  "colours": true,
+  "watch": ["./src", "./package.json", "./tsconfig.json"],
+  "ignore": ["./src/@types", "node_modules"],
+  "execMap": {
+    "ts": "cross-env SERVER_PORT=3012 tsx",
+    "mts": "npx tsx"
+  }
+}
