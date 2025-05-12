@@ -15,5 +15,6 @@ pnpm run dev
 ## 环境
 
 node >= 18
-
 pnpm >= 8
+
+推荐： node: 20.17.0, pnpm: 9.1.3
